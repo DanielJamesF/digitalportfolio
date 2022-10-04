@@ -23,10 +23,10 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("https://i.postimg.cc/PJsnNmLz/mountain.webp");
+    /* background-image: url("https://i.postimg.cc/PJsnNmLz/mountain.webp"); */
     background-size: cover;
     background-position: center;
-    color: white;
+    /* color: white; */
     border-bottom: solid 1px white;
 }
 
