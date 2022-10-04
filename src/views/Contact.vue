@@ -4,9 +4,9 @@
         <div class="col">
           <h1 class="display-4">Contact...</h1>
           <div class="row">
-            <div class="col border border-1 rounded-4">
+            <div class="col">
               <form
-                class="rounded p-4"
+                class="p-4 shadow"
                 id="fs-frm"
                 name="simple-contact-form"
                 accept-charset="utf-8"
@@ -73,7 +73,7 @@
                         type="number"
                         name="number"
                         id="phone number"
-                        placeholder="+27 123 456 789"
+                        placeholder="enter phone num"
                         required
                       />
                     </div>
@@ -136,6 +136,5 @@
   #contact {
     padding-top: 10vh;
     min-height: 100vh;
-    padding-bottom: 10vh;
   }
   </style>

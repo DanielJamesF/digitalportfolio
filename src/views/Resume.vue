@@ -2,9 +2,9 @@
     <section id="resume" class="p-5">
       <div class="container-fluid">
         <div class="row">
-          <div class="col">
-            <h2>Resume</h2>
-            <div class="row shadow">
+          <h2>Resume</h2>
+          <div class="col shadow">
+            <div class="row">
               <h3>Education</h3>
               <div class="col-4">
                 <p>March 2022 - present</p>
@@ -17,7 +17,7 @@
                 </p>
               </div>
             </div>
-            <div class="row shadow">
+            <div class="row">
               <div class="col-4">
                 <p>2015 - 2019</p>
               </div>
