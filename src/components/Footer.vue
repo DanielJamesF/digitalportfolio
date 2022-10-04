@@ -1,91 +1,248 @@
 <template>
-    <footer>
-        <div class="container-fluid">
-
-            <div class="row">
-                <div class="col">
-                    <h3>Quick links: </h3>
-                    <div class="row pt-3">
-                        <div class="col">
-                            <ul class="list-unstyled">
-                                <li class="pb-1">
-                                    <router-link class="text-decoration-none" to="/">Home</router-link>
-                                </li>
-                                <li class="pb-1">
-                                    <router-link class="text-decoration-none" to="/about">About</router-link>
-                                </li>
-                                <li>
-                                    <router-link class="text-decoration-none" to="/resume">Resume</router-link>
-                                </li>
-                            </ul>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <div class="cta-text">
+                                <h4>Find me</h4>
+                                <span>161 Lake Road, Zeekoevlei, Cape Town</span>
+                            </div>
                         </div>
-                        <div class="col">
-                            <ul class="list-unstyled">
-                                <li class="pb-1">
-                                    <router-link class="text-decoration-none" to="/projects">Projects</router-link>
-                                </li>
-                                <li class="pb-1">
-                                    <router-link class="text-decoration-none" to="/testimonials">Testimonials
-                                    </router-link>
-                                </li>
-                                <li>
-                                    <router-link class="text-decoration-none" to="/contact">Contact</router-link>
-                                </li>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="bi bi-telephone-fill"></i>
+                            <div class="cta-text">
+                                <h4>Call me</h4>
+                                <span>065 805 7987</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="bi bi-envelope-fill"></i>
+                            <div class="cta-text">
+                                <h4>Mail me</h4>
+                                <span>fredericksd17@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <router-link to="/"><img src="https://i.postimg.cc/VNNhw898/22733346-2.png"
+                                        class="img-fluid" alt="logo"></router-link>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow me</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/about">About</a></li>
+                                <li><a href="/projects">Projects</a></li>
+                                <li><a href="/resume">Resume</a></li>
+                                <li><a href="/testimonials">Testimonials</a></li>
+                                <li><a href="/contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <h3>Reach out: </h3>
-                    <ul class="list-unstyled">
-                        <li class="pb-1">
-                            <a class="text-decoration-none pb-1"
-                                href="https://app.netlify.com/teams/danieljamesf/overview">
-                                <i class=""></i> Netlify</a>
-                        </li>
-                        <li class="pb-1">
-                            <a class="text-decoration-none" href="https://github.com/DanielJamesF">
-                                <i class="bi bi-github"></i> Github</a>
-                        </li>
-                        <li class="pb-1">
-                            <a class="text-decoration-none"
-                                href="https://www.linkedin.com/in/daniel-fredericks-85744023a/"><i
-                                    class="bi bi-linkedin"></i> Linkedin</a>
-                        </li>
-                        <li>
-                            <a class="text-decoration-none" href="mailto:fredericksd17@gmail.com">
-                                <i class="bi bi-envelope"> Email</i>
-                            </a>
-                        </li>
-                    </ul>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-7 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2022, All Right Reserved <span>Daniel Fredericks</span></p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <br />
         </div>
-        <v-footer v-bind="localAttrs">
-            &copy; Copyright {{ new Date().getFullYear() }}
-        </v-footer>
     </footer>
 </template>
-  
-<script>
-export default {
-    name: "Footer",
-};
-</script>
-<style>
-footer {
-    background-color: black;
-    color: white;
-    border-top: solid 1px black;
-    padding-top: 10px;
+
+<style scoped>
+ul {
+    margin: 0px;
+    padding: 0px;
 }
 
-a {
+.footer-section {
+    background: #151414;
+    position: relative;
+}
+
+.footer-cta {
+    border-bottom: 1px solid #373636;
+}
+
+.single-cta i {
+    color: white;
+    font-size: 30px;
+    float: left;
+    margin-top: 8px;
+}
+
+.cta-text {
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.cta-text h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.cta-text span {
+    color: #757575;
+    font-size: 15px;
+}
+
+.footer-content {
+    position: relative;
+    z-index: 2;
+}
+
+.footer-pattern img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 330px;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+.footer-logo {
+    margin-bottom: 30px;
+}
+
+.footer-logo img {
+    max-width: 200px;
+}
+
+.footer-text p {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #7e7e7e;
+    line-height: 28px;
+}
+
+.footer-social-icon span {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.footer-social-icon a {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.footer-social-icon i {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+}
+
+.facebook-bg {
+    background: #3B5998;
+}
+
+.twitter-bg {
+    background: #55ACEE;
+}
+
+.google-bg {
+    background: #DD4B39;
+}
+
+.footer-widget-heading h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.footer-widget-heading h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 2px;
+    width: 50px;
+    background: white;
+}
+
+.footer-widget ul li {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-bottom: 12px;
+}
+
+.footer-widget ul li a:hover {
     color: white;
 }
 
-a:hover {
-    color: grey;
+.footer-widget ul li a {
+    color: #878787;
+    text-transform: capitalize;
+}
+
+.copyright-area {
+    background: #202020;
+    padding: 25px 0;
+}
+
+.copyright-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #878787;
+}
+
+.copyright-text p a {
+    color: white;
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.footer-menu li:hover a {
+    color: white;
+}
+
+.footer-menu li a {
+    font-size: 14px;
+    color: #878787;
 }
 </style>

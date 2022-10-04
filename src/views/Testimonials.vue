@@ -1,57 +1,25 @@
 <template>
-    <!-- <carousel/> -->
-    <div id="testimonials" class="row">
+  <!-- <carousel/> -->
+  <section id="testimonials">
+    <div class="row">
       <div class="col">
         <div>
           <h2>Testimonials</h2>
         </div>
         <br />
-        <div
-          id="carouselIndicators"
-          class="carousel slide shadow"
-          data-bs-ride="carousel"
-        >
+        <div id="carouselIndicators" class="carousel slide shadow" data-bs-ride="carousel">
           <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselIndicators"
-              data-bs-slide-to="0"
-              class="active bg-black"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselIndicators"
-              data-bs-slide-to="1"
-              class="bg-black"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselIndicators"
-              data-bs-slide-to="2"
-              class="bg-black"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselIndicators"
-              data-bs-slide-to="3"
-              class="bg-black"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselIndicators"
-              data-bs-slide-to="4"
-              class="bg-black"
-            ></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0"
+              class="active bg-black"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" class="bg-black"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" class="bg-black"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" class="bg-black"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="4" class="bg-black"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img
-                src="https://i.postimg.cc/3NbhYdM2/Joel.jpg"
-                style="object-fit: cover"
-                alt="Joel"
-                id="image"
-                class="rounded-circle"
-              />
+              <img src="https://i.postimg.cc/3NbhYdM2/Joel.jpg" style="object-fit: cover" alt="Joel" id="image"
+                class="rounded-circle" />
               <h5>Joel Mukanya</h5>
               <div id="comments">
                 <p>
@@ -64,13 +32,8 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img
-                src="https://i.postimg.cc/HpHW15CY/Clayton.jpg"
-                style="object-fit: cover"
-                alt="Clayton"
-                id="image"
-                class="rounded-circle"
-              />
+              <img src="https://i.postimg.cc/HpHW15CY/Clayton.jpg" style="object-fit: cover" alt="Clayton" id="image"
+                class="rounded-circle" />
               <h5>Clayton Adonis</h5>
               <div id="comments">
                 <p>
@@ -80,13 +43,8 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img
-                src="https://i.postimg.cc/cLWvzbmZ/Muddathir.jpg"
-                style="object-fit: cover"
-                alt="Muddathir"
-                id="image"
-                class="rounded-circle"
-              />
+              <img src="https://i.postimg.cc/cLWvzbmZ/Muddathir.jpg" style="object-fit: cover" alt="Muddathir"
+                id="image" class="rounded-circle" />
               <h5>Muddathir Dawood</h5>
               <div id="comments">
                 <p>
@@ -98,13 +56,8 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img
-                src="https://i.postimg.cc/Fspv9Cvh/Jared.jpg"
-                style="object-fit: cover"
-                alt="Jared"
-                id="image"
-                class="rounded-circle"
-              />
+              <img src="https://i.postimg.cc/Fspv9Cvh/Jared.jpg" style="object-fit: cover" alt="Jared" id="image"
+                class="rounded-circle" />
               <h5>Jared Isaacs</h5>
               <div id="comments">
                 <p>
@@ -119,13 +72,8 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img
-                src="https://i.postimg.cc/kgSyQz5m/Reagan1.jpg"
-                style="object-fit: cover"
-                alt="Reagan"
-                id="image"
-                class="rounded-circle"
-              />
+              <img src="https://i.postimg.cc/kgSyQz5m/Reagan1.jpg" style="object-fit: cover" alt="Reagan" id="image"
+                class="rounded-circle" />
               <h5>Reagan Carolussen</h5>
               <div id="comments">
                 <p>
@@ -140,31 +88,35 @@
         </div>
       </div>
     </div>
-  </template>
+  </section>
+</template>
   
-  <script>
-  import carousel from '../components/Carousel.vue';
-  export default {
-    // components: {carousel}
-  };
-  </script>
+<script>
+import carousel from '../components/Carousel.vue';
+export default {
+  // components: {carousel}
+};
+</script>
   
-  <style>
-  #testimonials {
-    min-height: 100vh;
-    padding: 80px;
-  }
-  #image {
-    aspect-ratio: 1;
-    object-fit: cover;
-    width: 20%;
-    height: auto;
-  }
-  #comments {
-    min-height: 200px;
-  }
-  h2 {
-    font-size: 70px;
-    text-shadow: 2px 2px grey;
-  }
-  </style>
+<style>
+#testimonials {
+  min-height: 100vh;
+  padding: 80px;
+}
+
+#image {
+  aspect-ratio: 1;
+  object-fit: cover;
+  width: 20%;
+  height: auto;
+}
+
+#comments {
+  min-height: 200px;
+}
+
+h2 {
+  font-size: 70px;
+  text-shadow: 2px 2px grey;
+}
+</style>

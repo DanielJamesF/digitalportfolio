@@ -23,12 +23,14 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-image: url("https://i.postimg.cc/PJsnNmLz/mountain.webp"); */
     background-size: cover;
     background-position: center;
-    /* color: white; */
-    border-bottom: solid 1px white;
+    position: relative;
+    background: url('http://unsplash.it/1200x800') center center no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom right, white, black);
 }
+
 
 h1 {
     font-size: 60px;

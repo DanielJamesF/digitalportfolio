@@ -1,5 +1,5 @@
 <template >
-    <section id="resume" class="p-5">
+    <section id="resume">
       <div class="container-fluid">
         <div class="row">
           <h2>Resume</h2>
@@ -159,6 +159,7 @@
   <style scoped>
   #resume {
     min-height: 100vh;
+    padding: 80px;
   }
   h2 {
     font-size: 70px;
