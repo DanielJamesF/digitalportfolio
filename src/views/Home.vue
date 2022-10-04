@@ -27,6 +27,7 @@ export default {
     background-size: cover;
     background-position: center;
     color: white;
+    border-bottom: solid 1px white;
 }
 
 h1 {

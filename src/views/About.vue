@@ -9,7 +9,7 @@
               id="image"
               class="img-fluid"
               style="position: absolute; top: 0; left: 0;"
-              src=""
+              src="https://i.postimg.cc/kMsBX2H8/about-Image.jpg"
               alt="daniel"
             />
           </div>

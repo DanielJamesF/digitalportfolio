@@ -4,10 +4,7 @@
         <div class="col">
           <h1 class="display-4">Contact...</h1>
           <div class="row">
-            <div>
-              <h2>get in touch...</h2>
-            </div>
-            <div class="col border border-3 rounded-4">
+            <div class="col border border-1 rounded-4">
               <form
                 class="rounded p-4"
                 id="fs-frm"
@@ -140,7 +137,5 @@
     padding-top: 10vh;
     min-height: 100vh;
     padding-bottom: 10vh;
-    background-color: rgb(232, 43, 43);
-    opacity: 80%;
   }
   </style>
