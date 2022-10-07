@@ -2,7 +2,7 @@
   <section id="about">
     <div class="container-fluid p-5">
       <h2>About me</h2>
-      <div class="row shadow">
+      <div class="row bg-dark text-light shadow p-2">
         <div class="col">
           <div style="object-fit: cover; height: 200px; aspect-ratio: 1; position: relative; border-radius: 50%; overflow: hidden;" class="mx-auto">
             <img
@@ -13,7 +13,7 @@
               alt="daniel"
             />
           </div>
-          <div>
+          <div class="col">
             <h3>Bio</h3>
             <div>
               <p>
