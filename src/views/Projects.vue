@@ -17,6 +17,7 @@
   <style scoped>
   #projects {
     min-height: 100vh;
+    padding: 80px;
   }
   h2{
     font-size: 70px;
