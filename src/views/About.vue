@@ -1,10 +1,9 @@
 <template>
-  <section id="about">
-    <div class="container-fluid p-5">
+  <section id="about" class="bg-dark">
       <h2>About me</h2>
-      <div class="row bg-dark text-light shadow p-2">
+      <div class="row bg-light text-dark shadow p-2">
         <div class="col">
-          <div style="object-fit: cover; height: 200px; aspect-ratio: 1; position: relative; border-radius: 50%; overflow: hidden;" class="mx-auto">
+          <div style="object-fit: cover; height: 200px; aspect-ratio: 1; position: relative; overflow: hidden;" class="mx-auto">
             <img
               id="image"
               class="img-fluid"
@@ -39,7 +38,6 @@
           </div>
         </div>
       </div>
-    </div>
   </section>
 </template>
 

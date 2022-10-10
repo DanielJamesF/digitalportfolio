@@ -1,15 +1,14 @@
 <template >
-    <section id="resume">
-      <div class="container-fluid">
+    <section id="resume" class="bg-dark">
+      <h2>Resume</h2>
         <div class="row">
-          <h2>Resume</h2>
-          <div class="col shadow">
+          <div class="col bg-light text-dark shadow">
             <div class="row">
               <h3>Education</h3>
-              <div class="col-4">
+              <div class="col-4 border">
                 <p>March 2022 - present</p>
               </div>
-              <div class="col-8">
+              <div class="col-8 border">
                 <p>
                   I am attendiing Life Choices Academy where I am learning to
                   code, where we recently covered HTML, CSS, Bootstrap, mySQL,
@@ -18,16 +17,16 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-4">
+              <div class="col-4 border">
                 <p>2015 - 2019</p>
               </div>
-              <div class="col-8">
+              <div class="col-8 border">
                 I attended Grassy Park high School and got my NQ4 form Grassy Park
                 High School from which I matriculated with a Diploma pass
               </div>
             </div>
             <h3>Skills</h3>
-            <div class="row p-2">
+            <div class="row border p-2">
               <h4 class="p-1">Technical Skills</h4>
               <div class="col text-start">
                 <h6 class="p-1">Html</h6>
@@ -149,7 +148,6 @@
             </div>
           </div>
         </div>
-      </div>
     </section>
   </template>
   
@@ -166,6 +164,11 @@
     text-shadow: 2px 2px grey;
   }
   h3 {
-    text-shadow: 1.2px 1.2px grey;
+    font-size: 55px;
+    text-shadow: 1.7px 1.7px grey;
+  }
+  h4{
+    font-size: 35px;
+    text-shadow: 1.3px 1.3px grey;
   }
   </style>

@@ -1,13 +1,13 @@
 <template>
   <!-- <carousel/> -->
-  <section id="testimonials">
+  <section id="testimonials" class="bg-dark">
     <div class="row">
       <div class="col">
         <div>
           <h2>Testimonials</h2>
         </div>
         <br />
-        <div id="carouselIndicators" class="carousel slide shadow" data-bs-ride="carousel">
+        <div id="carouselIndicators" class="carousel slide bg-light p-2 shadow" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0"
               class="active bg-black"></button>

@@ -1,5 +1,5 @@
 <template>
-    <section id="projects" class="p-5 flex-column d-flex align-items-center">
+    <section id="projects" class="flex-column bg-dark d-flex align-items-center">
       <h2>Projects</h2>
       <div class="container-fluid row">
         <Card />
