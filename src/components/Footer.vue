@@ -40,12 +40,6 @@
                                 <router-link to="/"><img src="https://i.postimg.cc/VNNhw898/22733346-2.png"
                                         class="img-fluid" alt="logo"></router-link>
                             </div>
-                            <div class="footer-social-icon">
-                                <span>Follow me</span>
-                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
-                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
-                            </div>
                         </div>
                     </div>
                     <div class="col-xl-7 col-lg-7 col-md-6 mb-30">
