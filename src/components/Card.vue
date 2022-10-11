@@ -1,5 +1,5 @@
 <template>
-    <div v-for="project in Projects" :key="project" class="col-md-4 border-0">
+    <div v-for="project in Projects" :key="project" class="col-md-3 border-0">
       <div class="card d-flex align-items-center justify-content-center border-0">
         <div class="container d-flex align-items-center justify-content-center rounded-0 shadow">
           <img

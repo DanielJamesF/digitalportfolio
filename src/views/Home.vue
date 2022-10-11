@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col">
                     <h3>Aspirings Web Developer</h3>
-                    <h1 class="h1">Hi I am Daniel Fredericks</h1>
+                    <h1 class="h1">Hi I am <span>Daniel Fredericks</span></h1>
                 </div>
             </div>
         </div>
