@@ -26,5 +26,8 @@ export default {
   font-size: calc(1px + 1vw);
   line-height: calc(1.1em + 0.5vw);
 }
+* {
+  font-family: "Trirong", serif;
+}
 
 </style>
