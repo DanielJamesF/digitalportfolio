@@ -21,7 +21,7 @@
   <div class="offcanvas-header">
     <button
     type="button"
-    class="btn-close"
+    class="btn-close btn-close-white"
     data-bs-dismiss="offcanvas"
     aria-label="Close"
     ></button>
@@ -69,11 +69,11 @@
 };
 </script>
 
-<style>
+<style scoped>
 nav {
   width: 100%;
   height: 10vh;
-  background: #151414;
+  background: #151414;opacity: 99%;
 }
 
 nav a {
@@ -92,8 +92,18 @@ nav a:hover{
 nav a.router-link-exact-active {
   color: black;
 }
+
 .img-fluid{
   font-size: 50px;
   padding: 10px;
+}
+
+.offcanvas-header{
+  height: 10vh;
+  background: #151414;
+}
+
+.offcanvas-body{
+  background: url("https://i.postimg.cc/X7Cw4VN5/2c7d771e8d2a75a098ff2f0a64673b11.gif")no-repeat center center/cover;
 }
 </style>

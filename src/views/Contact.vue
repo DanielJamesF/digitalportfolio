@@ -1,9 +1,9 @@
 <template>
   <section id="contact" class="bg-dark">
-          <h2>Contact</h2>
+          <h2 class="display-1">Contact</h2>
           <div class="row">
             <div class="col">
-              <form class="p-4 shadow text-light" id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+              <form class="p-1 shadow text-light" id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
                 action="https://formspree.io/f/xdobpjrz" method="post">
                 <br />
                 <fieldset id="fs-frm-inputs">

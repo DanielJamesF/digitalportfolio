@@ -1,9 +1,9 @@
 <template>
   <section id="about" class="bg-dark">
       <h2>About me</h2>
-      <div class="row text-light shadow p-2">
+      <div class="row text-light shadow">
         <div class="col">
-          <div style="object-fit: cover; height: 200px; aspect-ratio: 1; position: relative; overflow: hidden;" class="mx-auto">
+          <div style="object-fit: cover; aspect-ratio: 1; position: relative; overflow: hidden;" class="mx-auto">
             <img
               id="image"
               class="img-fluid"
@@ -51,10 +51,14 @@ export default {};
   padding: 80px;
 }
 h2 {
-  font-size: 70px;
   text-shadow: 2px 2px white;
 }
 h3{
   text-shadow: 2px 2px black;
+}
+@media(min-width: 375px){
+.mx-auto{
+  height:200px;
+}
 }
 </style>
