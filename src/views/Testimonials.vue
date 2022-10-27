@@ -6,7 +6,7 @@
         <div>
           <h2>Testimonials</h2>
         </div>
-        <div id="carouselIndicators" class="carousel slide bg-light p-2 shadow" data-bs-ride="carousel">
+        <div id="carouselIndicators" class="carousel slide text-light p-2 shadow" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0"
               class="active bg-black"></button>

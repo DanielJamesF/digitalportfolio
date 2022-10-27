@@ -23,5 +23,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: black;
+  font-size: calc(1px + 1vw);
+  line-height: calc(1.1em + 0.5vw);
 }
+
 </style>

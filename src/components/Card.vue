@@ -71,11 +71,6 @@
     padding: 0;
   }
   
-  html,
-  body {
-    width: 100vw;
-    min-height: 100vh;
-  }
   
   @media (prefers-reduced-motion: reduce) {
     *,

@@ -21,7 +21,7 @@
   }
   h2{
     font-size: 70px;
-    text-shadow: 2px 2px grey;
+    text-shadow: 2px 2px white;
   }
   </style>
   

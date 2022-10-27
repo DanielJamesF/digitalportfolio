@@ -1,14 +1,14 @@
 <template>
   <section id="about" class="bg-dark">
       <h2>About me</h2>
-      <div class="row bg-light text-dark shadow p-2">
+      <div class="row text-light shadow p-2">
         <div class="col">
           <div style="object-fit: cover; height: 200px; aspect-ratio: 1; position: relative; overflow: hidden;" class="mx-auto">
             <img
               id="image"
               class="img-fluid"
               style="position: absolute; top: 0; left: 0;"
-              src="https://i.postimg.cc/90BpLycC/about-Image.png"
+              src="https://i.postimg.cc/76HfWqdz/about-Image-Photo-Room-removebg-preview.png"
               alt="daniel"
             />
           </div>
@@ -52,9 +52,9 @@ export default {};
 }
 h2 {
   font-size: 70px;
-  text-shadow: 2px 2px grey;
+  text-shadow: 2px 2px white;
 }
 h3{
-  text-shadow: 2px 2px grey;
+  text-shadow: 2px 2px black;
 }
 </style>
