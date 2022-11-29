@@ -45,7 +45,7 @@
                 <router-link @click="closebar" to="/testimonials"
                 >Testimonials</router-link
                 >
-                <router-link @click="clossebar" to="/contact">Contact</router-link>
+                <router-link @click="closebar" to="/contact">Contact</router-link>
                 <router-link @click="closebar" to="/"
                 ></router-link
                 >
