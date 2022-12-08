@@ -123,7 +123,7 @@
 }
 
 h2 {
-  /* font-size: 70px; */
+  font-size: 70px;
   text-shadow: 1.5px 2.5px white;
 }
 
