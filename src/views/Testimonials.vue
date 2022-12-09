@@ -1,12 +1,11 @@
 <template>
-  <!-- <carousel/> -->
-  <section id="testimonials" class="bg-dark">
+  <section id="testimonials">
     <div class="row">
       <div class="col">
         <div>
           <h2>Testimonials</h2>
         </div>
-        <div id="carouselIndicators" class="carousel slide text-light p-2 shadow" data-bs-ride="carousel">
+        <div id="carouselIndicators" class="carousel slide p-2" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0"
               class="active bg-black"></button>
@@ -91,9 +90,7 @@
 </template>
   
 <script>
-import carousel from '../components/Carousel.vue';
 export default {
-  // components: {carousel}
 };
 </script>
   
@@ -101,6 +98,9 @@ export default {
 #testimonials {
   min-height: 100vh;
   padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #image {
@@ -116,6 +116,6 @@ export default {
 
 h2 {
   font-size: 70px;
-  text-shadow: 2px 2px white;
+  text-shadow: 1.5px 1.5px grey;
 }
 </style>
