@@ -1,12 +1,12 @@
 <template >
-  <section id="resume" class="bg-dark">
-    <h2 class="display-1">Resume</h2>
-    <div class="row shadow">
-      <div class="col text-light">
+  <section id="resume">
+    <h2>Resume</h2>
+    <div class="row">
+      <div class="col">
         <div id="tline" class="row">
           <div class="col">
             <div class="row">
-              <h3 class="display-5">Education:</h3>
+              <h3>Education:</h3>
               <div class="col-4 col-md-4">
                 <p>March 2022 - present</p>
               </div>
@@ -35,7 +35,7 @@
             </div>
           </div>
         </div>
-        <h3 class="display-5">Skills:</h3>
+        <h3>Skills:</h3>
         <div class="row p-2">
           <h4 class="p-1 ">Technical Skills</h4>
           <div class="col text-start">
@@ -120,21 +120,24 @@
 #resume {
   min-height: 100vh;
   padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h2 {
   font-size: 70px;
-  text-shadow: 1.5px 2.5px white;
+  text-shadow: 1.5px 1.5px gray;
 }
 
 h3 {
   /* font-size: 55px; */
-  text-shadow: 1.2px 1.2px black;
+  text-shadow: 1.2px 1.2px gray
 }
 
 h4 {
   /* font-size: 35px; */
-  text-shadow: 0.9px 0.9px darkgrey;
+  text-shadow: 0.9px 0.9px gray;
 }
 
 span {

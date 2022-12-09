@@ -1,5 +1,5 @@
 <template>
-  <section id="projects" class="flex-column bg-dark d-flex align-items-center">
+  <section id="projects">
     <h2>Projects</h2>
     <div class="container-fluid row">
       <Card />
@@ -18,11 +18,15 @@ export default {
 #projects {
   min-height: 100vh;
   padding: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
 }
 
 h2 {
   font-size: 70px;
-  text-shadow: 2px 2px white;
+  text-shadow: 2px 2px grey;
 }
 </style>
   
