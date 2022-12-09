@@ -29,5 +29,4 @@ export default {
 * {
   font-family: "Trirong", serif;
 }
-
 </style>

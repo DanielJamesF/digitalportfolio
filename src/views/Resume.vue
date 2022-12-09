@@ -140,7 +140,8 @@ h4 {
 span {
   color: blue;
 }
-#tline{
+
+#tline {
   border-bottom: 0.5px solid black;
 }
 </style>
