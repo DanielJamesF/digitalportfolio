@@ -44,9 +44,9 @@ export default {
 <style scoped>
 nav {
   width: 100%;
-  height: 10vh;
+  height: 9vh;
   background: #151414;
-  opacity: 99%;
+  opacity: 90%;
 }
 
 nav a {
