@@ -5,7 +5,8 @@
                 <div class="col">
                     <h1 class="h1 text p-5">Hi
                         <br>
-                        <span>Daniel Fredericks</span></h1>
+                        <span>Daniel Fredericks</span>
+                    </h1>
                     <h3 class="">Aspirings Web Developer</h3>
                 </div>
             </div>
