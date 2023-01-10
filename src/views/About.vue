@@ -25,7 +25,7 @@
               side, listening to music, mostly rap however I do enjoy listing
               to other genres as well, reading manga, watching anime, and
               going out with friends, I esecially enjoy spending time with
-              those that I am close with.
+              friends and family.
             </p>
           </div>
         </div>
