@@ -53,7 +53,7 @@ export default createStore({
         id: 6,
         title: "To do app",
         image: "https://i.postimg.cc/yYFy1B5h/ToDoApp.png",
-        desc: "This is a calculator made using HTML, CSS and JavaScript",
+        desc: "This is a to do app made using HTML, CSS and JavaScript",
         live: "https://spontaneous-cannoli-d39645.netlify.app/",
         github: "https://github.com/DanielJamesF/ToDoApp"
       },
