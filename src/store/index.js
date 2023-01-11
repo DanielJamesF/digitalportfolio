@@ -69,7 +69,7 @@ export default createStore({
         id: 8,
         title: "Capstone",
         image: "https://i.postimg.cc/nz0KZGN5/Screenshot-2022-09-15-090242.png",
-        desc: "This is an e-commerce website built that I built",
+        desc: "This is an e-commerce website that I built",
         live: "https://capstonefinal-b4977.web.app",
         github: "https://github.com/DanielJamesF/capstonefront"
       }
