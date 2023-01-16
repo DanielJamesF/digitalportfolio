@@ -1,6 +1,10 @@
 <template >
   <section id="resume">
-    <h2>Resume</h2>
+    <div class="row" id="head">
+      <div class="col">
+        <h2>Resume</h2>
+      </div>
+    </div>
     <div class="row">
       <div class="col">
         <div id="tline" class="row">
@@ -117,7 +121,7 @@
                 </div>
               </div>
               <div class="col">
-                
+
               </div>
             </div>
           </div>
@@ -142,6 +146,14 @@
 </script>
   
 <style scoped>
+#head {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #151414;
+}
+
 #resume {
   min-height: 100vh;
   padding: 80px;
