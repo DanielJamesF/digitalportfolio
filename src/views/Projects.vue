@@ -1,6 +1,10 @@
 <template>
   <section id="projects">
-    <h2>Projects</h2>
+    <div class="row" id="head">
+      <div class="col">
+        <h2>Projects</h2>
+      </div>
+    </div>
     <div class="container-fluid row">
       <Card />
     </div>
@@ -15,6 +19,14 @@ export default {
 </script>
   
 <style scoped>
+#head {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #151414;
+}
+
 #projects {
   min-height: 100vh;
   padding: 80px;

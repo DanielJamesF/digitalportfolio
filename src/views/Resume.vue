@@ -37,62 +37,87 @@
         </div>
         <h3>Skills:</h3>
         <div class="row p-2">
-          <h4 class="p-1 ">Technical Skills</h4>
+          <h4 class="">Technical Skills</h4>
           <div class="col text-start">
-            <h6 class="p-1">Html</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped active rounded-pill" role="progressbar" style="width: 78%"
-                aria-valuenow="70%" aria-valuemin="0" aria-valuemax="100">
-                <span>78%</span>
+            <div class="row">
+              <div class="col">
+                <h6>Html</h6>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active rounded-pill" role="progressbar"
+                    style="width: 78%" aria-valuenow="70%" aria-valuemin="0" aria-valuemax="100">
+                    <span>78%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <h6>CSS</h6>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active rounded-pill" role="progressbar"
+                    style="width: 73%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                    <span>73%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <h6>Bootstrap</h6>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active rounded-pill" role="progressbar"
+                    style="width: 70%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                    <span>70%</span>
+                  </div>
+                </div>
               </div>
             </div>
-            <h6 class="p-1">CSS</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped active rounded-pill" role="progressbar" style="width: 73%"
-                aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
-                <span>73%</span>
+            <div class="row">
+              <div class="col">
+                <h6 class="p-1">mySQL</h6>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active rounded-pill" role="progressbar"
+                    style="width: 68%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                    <span>68%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <h6 class="p-1">JavaScript</h6>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active rounded-pill" role="progressbar"
+                    style="width: 57%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                    <span>57%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <h6 class="p-1">Vuex</h6>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active rounded-pill" role="progressbar"
+                    style="width: 56%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                    <span>56%</span>
+                  </div>
+                </div>
               </div>
             </div>
-            <h6 class="p-1">Bootstrap</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped active rounded-pill" role="progressbar" style="width: 70%"
-                aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                <span>70%</span>
+            <div class="row">
+              <div class="col">
+                <h6 class="p-1">Node.js</h6>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active rounded-pill" role="progressbar"
+                    style="width: 40%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                    <span>40%</span>
+                  </div>
+                </div>
               </div>
-            </div>
-            <h6 class="p-1">mySQL</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped active rounded-pill" role="progressbar" style="width: 68%"
-                aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                <span>68%</span>
+              <div class="col">
+                <h6 class="p-1">Express.js</h6>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active rounded-pill" role="progressbar"
+                    style="width: 37%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                    <span>37%</span>
+                  </div>
+                </div>
               </div>
-            </div>
-            <h6 class="p-1">JavaScript</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped active rounded-pill" role="progressbar" style="width: 57%"
-                aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                <span>57%</span>
-              </div>
-            </div>
-            <h6 class="p-1">Vuex</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped active rounded-pill" role="progressbar" style="width: 56%"
-                aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                <span>56%</span>
-              </div>
-            </div>
-            <h6 class="p-1">Node.js</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped active rounded-pill" role="progressbar" style="width: 40%"
-                aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                <span>40%</span>
-              </div>
-            </div>
-            <h6 class="p-1">Express.js</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped active rounded-pill" role="progressbar" style="width: 37%"
-                aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                <span>37%</span>
+              <div class="col">
+                
               </div>
             </div>
           </div>

@@ -8,12 +8,18 @@
           <p>
             {{ project.desc }}
           </p>
-          <button type="button">
-            <a href="{{ project.live }}" target="_blank">Live</a>
-          </button>
-          <button type="button">
-            <a href="{{ project.github }}" target="_blank">Github</a>
-          </button>
+          <div class="row">
+            <div class="col px-1">
+              <button type="button">
+                <a href="{{ project.live }}" target="_blank">Live</a>
+              </button>
+            </div>
+            <div class="col px-1">
+              <button type="button">
+                <a href="{{ project.github }}" target="_blank">Github</a>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -174,10 +180,10 @@ body {
 }
 
 /*    card button*/
-.card>.container>.meta>button {
+.card>.container>.meta>.row>.col>button {
   all: unset;
   background-color: var(--clr-primary, hsl(0, 50%, 50%));
-  color: var(--card-default-color, black);
+  color: var(--card-default-color, white);
   padding: 0.4rem;
   border-radius: 0.4rem;
   cursor: pointer;
