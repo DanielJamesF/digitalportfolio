@@ -32,7 +32,6 @@ export default {
     background: url('http://unsplash.it/1200x800') center center no-repeat;
     background-size: cover;
     background-image: linear-gradient(to bottom right, white, black);
-    background-image: url("https://i.postimg.cc/dttzxxJg/4230932.webp");
 }
 
 h1 {

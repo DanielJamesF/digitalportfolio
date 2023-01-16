@@ -12,10 +12,10 @@
             <h3>Bio</h3>
             <p>
               My name is Daniel Fredericks I was born on the 7th of January
-              2002 and am currently am 20 years old. I am a student at life
-              Choices Academy where I am studying coding in order to become a
-              Web Developer in the future. My passsion for coding stems from
-              my love of technology and anything related to it. I am a hard
+              2002. I attended a six month coding bootcamp at life
+              Choices Coding Academy in order to persue my aspirations of becoming a
+              Web Developer. My passsion for coding stems from
+              my love of technology which has always been an interest of mine since I was really young. I am a hard
               worker and am able to work well in groups as I believe that I am
               able to get along with people pretty well.
             </p>
@@ -24,7 +24,7 @@
               I enjoy playing soccer, whether it's eleven a side or five a
               side, listening to music, mostly rap however I do enjoy listing
               to other genres as well, reading manga, watching anime, and
-              going out with friends, I esecially enjoy spending time with
+              going out with friends, I especially enjoy spending time with
               friends and family.
             </p>
           </div>
