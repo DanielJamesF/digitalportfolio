@@ -1,10 +1,12 @@
 <template>
   <section id="testimonials">
+    <div class="row" id="head">
+      <div class="col">
+        <h2>Testimonials</h2>
+      </div>
+    </div>
     <div class="row">
       <div class="col">
-        <div>
-          <h2>Testimonials</h2>
-        </div>
         <div id="carouselIndicators" class="carousel slide p-2" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0"
@@ -95,6 +97,14 @@ export default {
 </script>
   
 <style>
+#head {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #151414;
+}
+
 #testimonials {
   min-height: 100vh;
   padding: 80px;
