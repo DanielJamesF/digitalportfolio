@@ -9,8 +9,7 @@
       <h3 class="py-3">Education:</h3>
       <div class="row" id="education">
         <div class="col">
-
-          <div class="row">
+          <div class="row p-2">
             <div class="col-4 col-md-4">
               <p>March 2022 - present</p>
             </div>
@@ -25,7 +24,7 @@
               </p>
             </div>
           </div>
-          <div class="row">
+          <div class="row p-2">
             <div class="col-4 col-md-4">
               <p>2015 - 2019</p>
             </div>
@@ -192,16 +191,14 @@ span {
   padding: 20px;
   border-bottom: 0.5px solid black;
   border-top: 0.5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #skills {
   height: 30vh;
-  padding: 20px;
-  /* border-bottom: 0.5px solid black; */
+  padding: 20px;  
   border-top: 0.5px solid black;
 }
-
-/* #skillh {
-  height: 20vh;
-} */
 </style>
