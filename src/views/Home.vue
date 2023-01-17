@@ -7,7 +7,7 @@
                         <br>
                         <span>Daniel Fredericks</span>
                     </h1>
-                    <h3 class="">Aspirings Web Developer</h3>
+                    <h3>Aspirings Web Developer</h3>
                 </div>
             </div>
         </div>
@@ -26,11 +26,6 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    background: url('http://unsplash.it/1200x800') center center no-repeat;
-    background-size: cover;
     background-image: linear-gradient(to bottom right, white, black);
 }
 
@@ -45,7 +40,7 @@ h3 {
 
 .text {
     font-family: "Recursive", monospace;
-    font-size: clamp(4em, 15vmin, 20em);
+    font-size: clamp(6em, 15vmin, 20em);
     text-shadow: 0;
     color: black;
     animation: anime 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate infinite;
@@ -54,8 +49,8 @@ h3 {
 @keyframes anime {
     from {
         font-variation-settings: "wght" 800, "slnt" 0;
-        text-shadow: -5px 5px 5px grey, -8px 10px 7px lightgray,
-            -11px 15px 9px white;
+        text-shadow: -4px 4px 4px grey, -8px 8px 8px lightgray,
+            -12px 12px 12px white;
     }
 
     to {
