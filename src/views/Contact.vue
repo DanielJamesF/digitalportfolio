@@ -1,6 +1,10 @@
 <template>
   <section id="contact">
-    <h2>Contact</h2>
+    <div class="row" id="head">
+      <div class="col">
+        <h2>Contact</h2>
+      </div>
+    </div>
     <div class="row">
       <div class="col">
         <form class="p-1" id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
@@ -77,6 +81,14 @@ export default {};
 </script>
   
 <style scoped>
+#head {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #151414;
+}
+
 #contact {
   min-height: 100vh;
   padding: 80px;
@@ -85,5 +97,9 @@ export default {};
 h2 {
   font-size: 70px;
   text-shadow: 1.5px 1.5px gray;
+}
+
+textarea:hover, input:hover {
+  border-color: #151414;
 }
 </style>
