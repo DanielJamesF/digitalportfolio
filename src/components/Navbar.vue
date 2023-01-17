@@ -3,7 +3,7 @@
     <div class="d-flex justify-content-start bg-transparent">
       <button id="button" class="btn border-0" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-        <i class="bi bi-arrow-bar-right" style="color: white; font-size: 40px;"></i>
+        <i class="bi bi-arrow-bar-right" style="color: black; font-size: 40px;"></i>
       </button>
     </div>
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -26,7 +26,6 @@
         </div>
       </div>
     </div>
-    <img class="img-fluid" src="https://i.postimg.cc/VNNhw898/22733346-2.png" alt="">
   </nav>
 </template>
 
@@ -74,9 +73,5 @@ nav a.router-link-exact-active {
 .offcanvas-header {
   height: 10vh;
   background: #151414;
-}
-
-.offcanvas-body {
-  background: url("https://i.postimg.cc/X7Cw4VN5/2c7d771e8d2a75a098ff2f0a64673b11.gif")no-repeat center center/cover;
 }
 </style>
