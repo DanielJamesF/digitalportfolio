@@ -26,7 +26,7 @@ export default createStore({
         id: 3,
         title: "Rainbow",
         image: "https://i.postimg.cc/43v5WGvN/rainbow.png",
-        desc: "   This is a rainbow made using HTML, CSS",
+        desc: "This is a rainbow made using HTML, CSS",
         live: "https://peaceful-hamster-c0a214.netlify.app",
         github: "https://github.com/DanielJamesF/Rainbow"
 

@@ -11,12 +11,12 @@
           <div class="row">
             <div class="col px-1">
               <button type="button">
-                <a href="{{ project.live }}" target="_blank">Live</a>
+                <a v-bind:href="project.live" target="_blank">Live</a>
               </button>
             </div>
             <div class="col px-1">
               <button type="button">
-                <a href="{{ project.github }}" target="_blank">Github</a>
+                <a v-bind:href="project.github" target="_blank">Github</a>
               </button>
             </div>
           </div>
