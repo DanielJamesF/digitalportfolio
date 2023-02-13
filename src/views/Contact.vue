@@ -6,7 +6,8 @@
       </div>
     </div>
     <div class="row">
-      <div class="col">
+      <div class="col-2"></div>
+      <div class="col-8">
         <form class="p-1" id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
           action="https://formspree.io/f/xdobpjrz" method="post">
           <br />
