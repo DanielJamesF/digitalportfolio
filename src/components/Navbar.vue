@@ -45,7 +45,6 @@ nav {
   width: 100%;
   height: 9vh;
   background: #151414;
-  /* opacity: 90%; */
 }
 
 nav a {
