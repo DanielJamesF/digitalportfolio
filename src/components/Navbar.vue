@@ -73,4 +73,7 @@ nav a.router-link-exact-active {
   height: 10vh;
   background: #151414;
 }
+.offcanvas-body {
+  background: lightgrey;
+}
 </style>
