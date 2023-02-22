@@ -24,4 +24,3 @@ h2 {
   text-shadow: 2px 2px grey;
 }
 </style>
-  

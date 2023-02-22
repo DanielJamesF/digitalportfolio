@@ -1,14 +1,16 @@
 <template>
   <nav class="fixed-top d-flex justify-content-between">
     <div class="d-flex justify-content-start bg-transparent">
-      <button id="button" class="btn border-0" type="button" data-bs-toggle="offcanvas"
+      <button class="btn border-0" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
         <i  class="bi bi-list" style="color: lightgrey; font-size: 40px;"></i>
       </button>
     </div>
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
       <div class="offcanvas-header">
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button class="btn border-0" type="button" data-bs-dismiss="offcanvas">
+        <i  class="bi bi-x" style="color: lightgrey; font-size: 40px;"></i>
+        </button>
       </div>
       <div class="offcanvas-body">
         <div id="navbarNav">
@@ -59,18 +61,8 @@ nav a {
 nav a:hover {
   color: white;
 }
-
-nav a.router-link-exact-active {
-  color: black;
-}
-
-.img-fluid {
-  font-size: 50px;
-  padding: 10px;
-}
-
 .offcanvas-header {
-  height: 10vh;
+  height: 9vh;
   background: #151414;
 }
 .offcanvas-body {
