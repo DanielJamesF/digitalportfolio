@@ -1,5 +1,5 @@
 <template >
-  <section id="resume">
+  <section id="section">
     <div class="row" id="head">
       <div class="col">
         <h2>Resume</h2>
@@ -151,22 +151,6 @@
 </script>
 
 <style scoped>
-#head {
-  height: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: solid #151414;
-}
-
-#resume {
-  min-height: 100vh;
-  padding: 80px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 h2 {
   font-size: 70px;
   text-shadow: 1.5px 1.5px gray;

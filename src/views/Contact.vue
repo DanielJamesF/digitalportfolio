@@ -1,5 +1,5 @@
 <template>
-  <section id="contact">
+  <section id="section">
     <div class="row" id="head">
       <div class="col">
         <h2>Contact</h2>
@@ -45,7 +45,7 @@
                 <label for="phone numbeer">Phone</label>
               </div>
               <div class="col-md-9">
-                <input class="form-control" type="number" name="number" id="phone number" placeholder="enter phone num"
+                <input class="form-control" type="number" name="number" id="phone number" placeholder="phone number"
                   required />
               </div>
             </div>
@@ -55,7 +55,7 @@
                 <label for="subject">Subject</label>
               </div>
               <div class="col-md-9">
-                <input type="text" class="form-control" name="_subject" id="subject" placeholder="what is up?"
+                <input type="text" class="form-control" name="_subject" id="subject" placeholder="subject"
                   required />
               </div>
             </div>
@@ -82,19 +82,6 @@ export default {};
 </script>
   
 <style scoped>
-#head {
-  height: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: solid #151414;
-}
-
-#contact {
-  min-height: 100vh;
-  padding: 80px;
-}
-
 h2 {
   font-size: 70px;
   text-shadow: 1.5px 1.5px gray;

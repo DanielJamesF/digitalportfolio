@@ -1,5 +1,5 @@
 <template>
-  <section id="about">
+  <section id="section">
     <div class="row" id="head">
       <div class="col">
         <h2>About me</h2>
@@ -41,21 +41,6 @@ export default {};
 </script>
 
 <style scoped>
-#head {
-  height: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: solid #151414;
-}
-
-#about {
-  min-height: 100vh;
-  padding: 80px;
-  display: flex;
-  flex-direction: column;
-}
-
 h2 {
   font-size: 70px;
   text-shadow: 2px 2px gray;

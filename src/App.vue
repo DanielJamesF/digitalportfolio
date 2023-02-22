@@ -29,4 +29,20 @@ export default {
 * {
   font-family: "Trirong", serif;
 }
+
+#section {
+  min-height: 100vh;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+#head {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid #151414; */
+}
+
 </style>
