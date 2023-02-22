@@ -3,7 +3,7 @@
     <div class="d-flex justify-content-start bg-transparent">
       <button id="button" class="btn border-0" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-        <i class="bi bi-arrow-bar-right" style="color: lightgrey; font-size: 40px;"></i>
+        <i  class="bi bi-list" style="color: lightgrey; font-size: 40px;"></i>
       </button>
     </div>
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
