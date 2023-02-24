@@ -39,10 +39,10 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <!-- <div class="container">
         <h3 class="py-3">Work Experience :</h3>
 
-    </div>
+    </div> -->
     <div class="container">
         <h3 class="py-3">Skills :</h3>
         <div class="row" id="skills">
