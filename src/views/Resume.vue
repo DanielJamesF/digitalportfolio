@@ -149,7 +149,6 @@
 #education {
     height: 30vh;
     padding: 20px;
-    border-top: 0.5px solid black;
     display: flex;
     justify-content: center;
     align-items: center;

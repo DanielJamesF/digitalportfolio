@@ -35,6 +35,7 @@ h1 {
 }
 
 h3 {
+    color: black;
     text-shadow: 2px 2px grey;
 }
 
@@ -43,14 +44,13 @@ h3 {
     font-size: clamp(6em, 15vmin, 20em);
     text-shadow: 0;
     color: black;
-    animation: anime 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate infinite;
+    animation: anime 2s cubic-bezier(0.45, 0.5, 0.55, 0.6) alternate infinite;
 }
 
 @keyframes anime {
     from {
         font-variation-settings: "wght" 800, "slnt" 0;
-        text-shadow: -4px 4px 4px grey, -8px 8px 8px lightgray,
-            -12px 12px 12px white;
+        text-shadow: -5px 5px 5px darkgrey, -7px 7px 7px lightgrey, 9px 9px 9px white
     }
 
     to {
