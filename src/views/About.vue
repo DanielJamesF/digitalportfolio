@@ -41,15 +41,6 @@ export default {};
 </script>
 
 <style scoped>
-h2 {
-  font-size: 70px;
-  text-shadow: 2px 2px gray;
-}
-
-h3 {
-  text-shadow: 2px 2px gray;
-}
-
 .img-fluid{
   object-fit: cover;
 }

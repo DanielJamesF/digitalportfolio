@@ -117,9 +117,4 @@ export default {
 #comments {
   min-height: 200px;
 }
-
-h2 {
-  font-size: 70px;
-  text-shadow: 1.5px 1.5px grey;
-}
 </style>

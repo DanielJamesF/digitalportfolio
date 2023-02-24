@@ -82,11 +82,6 @@ export default {};
 </script>
   
 <style scoped>
-h2 {
-  font-size: 70px;
-  text-shadow: 1.5px 1.5px gray;
-}
-
 textarea:hover, input:hover {
   border-color: #151414;
 }

@@ -45,4 +45,21 @@ export default {
   /* border: solid #151414; */
 }
 
+h2 {
+  font-size: 70px;
+  text-shadow: 3px 3px 3px gray;
+  border-bottom: solid black 1px;
+}
+
+h3 {
+  font-size: 50px;
+  color: darkgrey;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+h4 {
+  font-size: 30px;
+  text-shadow: 1px 1px 1px gray;
+}
+
 </style>
